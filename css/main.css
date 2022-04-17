@@ -21,8 +21,16 @@ h6 {
     color: #E19825;
 }
 
+.border-color-primary{
+    border-color: #E19825 !important;
+}
+
 .theme-secondary-text {
     color: #4B34E8;
+}
+
+.text-purple {
+    color: #500e60;
 }
 
 .bg-theme-primary {
@@ -272,7 +280,7 @@ tbody tr {
 .packages .nav-tabs .nav-link.active,
 .packages .nav-tabs .nav-item.show .nav-link {
     color: #ffffff;
-    background-color: #E19825;
+    background-color: #500e60;
     border-color: #dbdbdb;
 }
 
@@ -283,7 +291,7 @@ tbody tr {
 .addPackages a,
 .submitStyle {
     background-color: #E19825;
-    color: #4d4f50;
+    color: #fff;
     padding: 8px 30px;
 }
 
@@ -472,6 +480,50 @@ p.circle-yellow span {
     top: 10px;
     right: 10px;
 }
+
+.upload-text {
+    display: none !important;
+}
+
+.image-uploader {
+    min-height: auto;
+    border: 1px solid #d9d9d9;
+    position: relative;
+}
+
+div#output img {
+    height: 150px;
+    object-fit: cover;
+    /* width: 150px; */
+}
+.postIcon i {
+    font-size: 30px;
+    color: #500E60;
+}
+
+div#output img {
+    flex-grow: 1;
+}
+
+textarea {
+    outline: none;
+}
+
+.editprofile {
+    background-color: #500e60;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 115px;
+    border: 1px solid #fff;
+}
+
 
 
 

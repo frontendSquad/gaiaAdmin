@@ -9,7 +9,7 @@ include('../layout/topBar.php');
     </div>
     <div class="col-md-4">
         <div class="btnBox d-flex justify-content-end">
-            <button type="button" class="btn bg-theme-primary text-white px-5 rounded-pill" data-toggle="modal" data-target="#addPost"">Add Post</button>
+            <button type="button" class="btn bg-theme-primary text-white px-5 rounded-pill" data-toggle="modal" data-target="#addPost">Add Post</button>
         </div>
         <div class=" d-flex align-items-center gap-15 my-3">
                 <div class="title flex-shrink-0">
@@ -133,7 +133,7 @@ include('../layout/topBar.php');
                     <i class="bi bi-three-dots-vertical"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <button class="dropdown-item" type="button"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                    <button class="dropdown-item" type="button" data-toggle="modal" data-target="#editPost"><i class="bi bi-pencil pr-2"></i>Edit</button>
                     <button class="dropdown-item" type="button"><i class="bi bi-trash2 pr-2"></i>Remove</button>
                 </div>
             </div>
@@ -148,41 +148,9 @@ include('../layout/topBar.php');
         </div>
     </div>
 </div>
-<div class="modal fade" id="addPost" tabindex="-1" aria-labelledby="addPostLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header border-bottom flex-column">
-                <div class="align-self-end closeBtn">
-                    <button type="button" class="bi bi-x close" data-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modalTitle">
-                    <h3 class="mb-0">Post Something</h3>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="contentModal">
-                    <div class="postTitle d-flex flex-wrap align-items-center gap-15">
-                        <div class="postImage">
-                            <img src="../images/postimage.png" alt="postImage" class="mw-100 rounded-pill">
-                        </div>
-                        <div class="postmeta">
-                            <h6 class="text-dark mb-1 achivpFont">David Goria</h6>
-                            <p class="mb-0 text-secondary">22 min ago</p>
-                        </div>
 
-                    </div>
-                    <div class="commentBox py-3">
-                        <textarea name="comment" rows="10" placeholder="What's on your mind?" class="w-100 border-0"></textarea>
-                    </div>
-                </div>
-                <div class="reset-footer d-flex flex-wrap gap-15 justify-content-center align-items-center">
-                    <button type="button" class="btn bg-theme-primary text-white px-5 rounded-pill" data-dismiss="modal">Post</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <?php
+include('./postModal.php');
 include('../layout/footer.php');
 ?>
