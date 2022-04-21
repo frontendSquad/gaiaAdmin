@@ -3,16 +3,9 @@ include('../layout/topBar.php');
 ?>
 <div class="packages">
     <div class="row align-items-center justify-content-between">
-        <div class="col-md-4">
+        <div class="col-md-12">
             <div class="titleBox py-4">
-                <h3 class="mb-0 achivpFont mb-0 font-weight-bold">User</h3>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="titleBox py-4">
-                <div class="addPackages text-md-right">
-                    <a href="addPackages.php" class="btn rounded-pill px-4">Add User</a>
-                </div>
+                <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Content Management</h3>
             </div>
         </div>
     </div>
@@ -23,73 +16,73 @@ include('../layout/topBar.php');
                     <thead>
                         <tr>
                             <th class="table-site-headings">S.No.</th>
-                            <th class="table-site-headings">First Name</th>
-                            <th class="table-site-headings">Last Name</th>
+                            <th class="table-site-headings">Page Title</th>
+                            <th class="table-site-headings">Last Updated On</th>
                             <th class="table-site-headings">Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>01</td>
-                            <td>Product Name</td>
-                            <td>£70</td>
+                            <td>Home</td>
+                            <td>mm/dd/yyyy</td>
                             <td>
                                 <div class="btn-group ml-1">
                                     <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                     <div class="dropdown-menu">
-                                        <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                        <a class="text-dark mb-1 px-3"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td>01</td>
-                            <td>Product Name</td>
-                            <td>£70</td>
+                            <td>02</td>
+                            <td>About Us</td>
+                            <td>mm/dd/yyyy</td>
                             <td>
                                 <div class="btn-group ml-1">
                                     <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                     <div class="dropdown-menu">
-                                        <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                        <a class="text-dark mb-1 px-3"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td>01</td>
-                            <td>Product Name</td>
-                            <td>£70</td>
+                            <td>03</td>
+                            <td>Explore Courses</td>
+                            <td>mm/dd/yyyy</td>
                             <td>
                                 <div class="btn-group ml-1">
                                     <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                     <div class="dropdown-menu">
-                                        <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                        <a class="text-dark mb-1 px-3"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td>01</td>
-                            <td>Product Name</td>
-                            <td>£70</td>
+                            <td>04</td>
+                            <td>On Demand Videos</td>
+                            <td>mm/dd/yyyy</td>
                             <td>
                                 <div class="btn-group ml-1">
                                     <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                     <div class="dropdown-menu">
-                                        <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                        <a class="text-dark mb-1 px-3"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td>01</td>
-                            <td>Product Name</td>
-                            <td>£70</td>
+                            <td>05</td>
+                            <td>Home</td>
+                            <td>mm/dd/yyyy</td>
                             <td>
                                 <div class="btn-group ml-1">
                                     <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i> </button>
                                     <div class="dropdown-menu">
-                                        <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                        <a class="text-dark mb-1 px-3"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                     </div>
                                 </div>
                             </td>
