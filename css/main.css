@@ -524,6 +524,41 @@ textarea {
     border: 1px solid #fff;
 }
 
+.session-banner {
+    min-height: 325px;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.iconTick {
+    font-size: 45px;
+}
+
+.imageuploader {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.imageuploader button {
+    position: absolute;
+    top: 3px;
+    z-index: 999;
+    right: 0;
+}
+
+.videoBox video {
+    border-radius: 20px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.videoBox {
+    margin-top: 15px;
+}
+
+
+
 
 
 

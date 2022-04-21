@@ -88,3 +88,8 @@ jQuery('#profilePicture').click(function(){
 jQuery(this).URL.createObjectURL(target.files[i]);
 });
 // jQuery('#output')
+
+// image box remove
+jQuery('.imageuploader button').click(function(){
+  jQuery(this).parent('.imageuploader').remove();
+});
