@@ -19,14 +19,14 @@ include('../layout/topBar.php');
 
     <ul class="nav nav-tabs d-flex flex-wrap justify-content-start align-items-center gap-15 border-0 text-center" id="myTab" role="tablist">
         <li class="nav-item border-0 col-md-3">
-            <a class="shadow rounded-pill py-3 nav-link active" id="user-tab" data-toggle="tab" href="#user" role="tab" aria-controls="user" aria-selected="false">User</a>
+            <a class="shadow rounded-pill py-3 nav-link" href="../user/user.php">User</a>
         </li>
         <li class="nav-item border-0 col-md-3">
-            <a class="shadow rounded-pill py-3 nav-link"  href="../trainer/trainer-log.php">Trainers</a>
+            <a class="shadow rounded-pill py-3 nav-link active" id="trainer-tab" data-toggle="tab" href="#trainer" role="tab" aria-controls="trainer" aria-selected="true">Trainers</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="user" role="tabpanel" aria-labelledby="user-tab">
+        <div class="tab-pane fade show active" id="trainer" role="tabpanel" aria-labelledby="trainer-tab">
             <div class="notification-section shadow p-5 rounded-15 my-4">
                 <div class="row justify-content-between">
                     <div class="col-md-6">
@@ -115,9 +115,9 @@ include('../layout/topBar.php');
                                         <div class="btn-group ml-1">
                                             <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item mb-1" href="./user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
+                                                <a class="dropdown-item mb-1" href="../user/user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
                                                 <button class="dropdown-item mb-1"><i class="bi bi-x-circle pr-2"></i>In-Active</button>
-                                                <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                                <a href="../user/edit-user.php" class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                             </div>
                                         </div>
                                     </td>
@@ -133,9 +133,9 @@ include('../layout/topBar.php');
                                         <div class="btn-group ml-1">
                                             <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item mb-1" href="./user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
+                                                <a class="dropdown-item mb-1" href="../user/user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
                                                 <button class="dropdown-item mb-1"><i class="bi bi-x-circle pr-2"></i>In-Active</button>
-                                                <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                                <a href="../user/edit-user.php" class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                             </div>
                                         </div>
                                     </td>
@@ -151,9 +151,9 @@ include('../layout/topBar.php');
                                         <div class="btn-group ml-1">
                                             <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item mb-1" href="./user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
+                                                <a class="dropdown-item mb-1" href="../user/user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
                                                 <button class="dropdown-item mb-1"><i class="bi bi-x-circle pr-2"></i>In-Active</button>
-                                                <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                                <a href="../user/edit-user.php" class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                             </div>
                                         </div>
                                     </td>
@@ -169,9 +169,9 @@ include('../layout/topBar.php');
                                         <div class="btn-group ml-1">
                                             <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"> <i class="bi bi-three-dots-vertical"></i> </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item mb-1" href="./user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
+                                                <a class="dropdown-item mb-1" href="../user/user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
                                                 <button class="dropdown-item mb-1"><i class="bi bi-x-circle pr-2"></i>In-Active</button>
-                                                <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                                <a href="../user/edit-user.php" class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                             </div>
                                         </div>
                                     </td>
@@ -187,9 +187,9 @@ include('../layout/topBar.php');
                                         <div class="btn-group ml-1">
                                             <button type="button" class="btn border-color outline-0" data-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i> </button>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item mb-1" href="./user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
+                                                <a class="dropdown-item mb-1" href="../user/user-details.php"><i class="bi bi-eye table-eye pr-2"></i>View</a>
                                                 <button class="dropdown-item mb-1"><i class="bi bi-x-circle pr-2"></i>In-Active</button>
-                                                <button class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</button>
+                                                <a href="../user/edit-user.php" class="dropdown-item mb-1"><i class="bi bi-pencil pr-2"></i>Edit</a>
                                             </div>
                                         </div>
                                     </td>
