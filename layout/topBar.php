@@ -10,8 +10,8 @@ include('header.php');
         <!-- Top navigation-->
         <nav class="navbar navbar-expand-lg bg-theme-secondary border-bottom-radius">
             <div class="container-fluid">
-                <button class="navbar-toggler" id="sidebarToggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="input-group col-md-4">
+                <button class="navbar-toggler text-white" id="sidebarToggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+                <div class="input-group col-xl-4 col-md-6 col-9 headr-search-btn">
                     <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
                     <span class="input-group-append">
                         <button class="btn btn-outline-secondary border-left-0 border bg-white" type="button">
@@ -19,8 +19,8 @@ include('header.php');
                         </button>
                     </span>
                 </div>
-                <div class="collapse navbar-collapse col-md-4" id="navbarSupportedContent">
-                    <div class="d-flex align-items-center flex-wrap gap-15">
+                <div class="collapse navbar-collapse col-xl-3 col-md-5 col-9 profile-dropdown" id="navbarSupportedContent">
+                    <div class="d-flex align-items-center flex-wrap justify-content-end gap-15">
                         <div class="avatarImage d-flex align-items-center gap-15">
                             <a class="text-dark notification position-relative" id="notification"><i class="bi bi-bell-fill"></i><span class="count">3</span></a>
                             <img src="../images/user-icon.png" alt="User Avatar" class="flex-shrink-0">

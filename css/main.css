@@ -565,7 +565,15 @@ textarea {
 }
 
 
+.navbar-toggler {
+    outline: none !important;
+}
 
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
 
 
 
@@ -607,3 +615,60 @@ textarea {
         height: 12px !important;
     }
 }
+
+@media(min-width: 1170px) {
+    div#sidebar-wrapper {
+      position: fixed;
+      width   : 15%;
+    }
+  
+    div#page-content-wrapper {
+      width: 85%;
+      margin-left: 15%;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    button#sidebarToggle{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .login .rightColumn {
+      display: none !important;
+    }
+    .profile-dropdown.collapse:not(.show) {
+      display: block;
+    }
+    
+    .avatarImage img {
+      display: none;
+    }
+    .avatarInfo h3 {
+      font-size: 15px;
+    }
+    .rotateText {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #page-content-wrapper {
+      width: 100vw;
+    }
+    .headr-search-btn {
+      display: none;
+    }
+    #sidebar-wrapper .sidebar-heading {
+      width: 240px;
+    }
+    .graphTitle .achivpFont {
+      margin-bottom: 10px !important;
+    }
+    select.form-select.form-select-sm.w-25 {
+      width: 100% !important;
+    }
+    .badgeRight {
+      bottom: 0%;
+    }
+  }
