@@ -575,6 +575,31 @@ textarea {
     box-shadow: none !important;
 }
 
+.video-box {
+    height: 205px;
+    overflow: hidden;
+    position: relative;
+}
+
+.deleteBtn {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 9999;
+}
+
+.deleteBtn button {
+    background-color: #ffffffd9;
+    border: 0;
+    font-size: 18px !important;
+    color: red;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @media(min-width: 1170px) {

@@ -93,3 +93,9 @@ jQuery(this).URL.createObjectURL(target.files[i]);
 jQuery('.imageuploader button').click(function(){
   jQuery(this).parent('.imageuploader').remove();
 });
+
+// delete video box on listing 
+
+jQuery('.deleteBtn button').click(function(){
+  jQuery(this).parents('.col-md-4').remove();
+});
